@@ -1,0 +1,12 @@
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    padding: 1vh;
+}
+
+#button-clear{
+margin-left: 8vh;
+}
