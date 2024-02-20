@@ -3,7 +3,8 @@
     margin: 0px;
   }
 
-.body-container{
-    display: flex;
-    height: 1800px;
+body{
+  background-image: url(assets/_20c16ac1-5025-45eb-a2f0-819f20f53b8a.jpeg);
+  background-size: cover;
+  
 }
