@@ -1,3 +1,25 @@
+
+ 
+<div class="card-container" *ngIf="Movie">
+    <div class="card-header">
+      <img src="{{Movie.poster_path}}" alt="{{ Movie.title }}">
+    </div>
+    <div class="card-body">
+      <h3>{{ Movie.title }}</h3>
+      <p>{{ Movie.release_date }}</p>
+  
+    </div>
+  </div>
+
+
+   <!--<div class="card">
+  <img src="{{ Movie.poster_path }}" alt="{{ Movie.title }}" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">{{ Movie.title }}</h5>
+    <p class="card-text">{{ Movie.overview }}</p>
+  
+  </div>
+</div> -->
 <!--<div class="card-container">
   <div class="card" *ngFor="let movie ">
     <div class="card-header">

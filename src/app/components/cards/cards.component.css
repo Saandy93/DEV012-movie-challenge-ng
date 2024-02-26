@@ -1,0 +1,12 @@
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #260144;
+    padding: 5vh;
+    background-color: rgba(225, 222, 219, 0.381);
+    margin-bottom: 2vh;
+}
+.card-body{
+    border: 1px solid #260144; 
+}

@@ -1,3 +1,11 @@
 <app-header> </app-header>
 <app-tool-bar> </app-tool-bar>
 
+<div>
+    <h2>Lista de Películas</h2>
+    <div *ngFor="let movie of interfaces">
+      <app-cards [Movie]="movie"></app-cards>
+    </div>
+  </div>
+
+

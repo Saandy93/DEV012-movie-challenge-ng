@@ -5,8 +5,12 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './Views/home/home.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { ToolBarComponent } from './components/tool-bar/tool-bar.component';
-import { HeaderComponent } from './header/header.component';
+import { HeaderComponent } from './components/header/header.component';
 import { AppRoutingModule } from './app-routing.module';
+import { movieService } from './Services/movie.service'; 
+import {HttpClientModule} from '@angular/common/http';
+import { RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -19,8 +23,14 @@ import { AppRoutingModule } from './app-routing.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
+    RouterModule,
+    CommonModule,
+   
   ],
-  providers: [],
+ 
+  
+  providers: [movieService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
